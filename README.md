@@ -5,10 +5,10 @@ This is a Docker image that extends the official Google Cloud SDK image with the
 
 ## Versions
 This image is built using the following versions:
- - Google Cloud SDK: 475.0.0
- - Terraform: 1.8.5
+ - Google Cloud SDK: 488.0.0
+ - Terraform: 1.9.4
 
-Latest version : [![latest](https://img.shields.io/badge/terraform--gcloud-1.8.5--475.0.0-green.svg)](https://hub.docker.com/r/cedricguadalupe/terraform-gcloud)
+Latest version : [![latest](https://img.shields.io/badge/terraform--gcloud-1.8.5--488.0.0-green.svg)](https://hub.docker.com/r/cedricguadalupe/terraform-gcloud)
 
 ## Usage
 To use this image, you will need Docker installed on your system.
