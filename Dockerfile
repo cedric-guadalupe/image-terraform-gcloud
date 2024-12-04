@@ -1,5 +1,9 @@
-FROM google/cloud-sdk:462.0.0-alpine
-ENV TF_VERSION=1.7.1
+FROM google/cloud-sdk:502.0.0-alpine
+ENV TF_VERSION=1.10.0
+
+# Installation de Python 3 et pip
+RUN apk add --no-cache python3 py3-pip
+
 WORKDIR /
 # Installation terraform
 RUN mkdir -p /usr/lib/terraform/${TF_VERSION} \
